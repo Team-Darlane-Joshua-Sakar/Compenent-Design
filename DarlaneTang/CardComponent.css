@@ -1,1 +1,44 @@
+html,body{
+    background-color:#E4E4E4;
+    font-family:Roboto, sans-serif;
+}
+
+.container{
+    width:500px;
+    height:auto;
+    margin:auto;
+    margin-top:150px;
+    background-color:white;
+    border-radius: 10px;
+    padding:25px;
+}
+
+img{
+    height: 500px;
+    width:500px;
+}
+
+.header-cont{
+    margin-left:15px;
+}
+h3{
+    margin-top:10px;
+    margin-bottom:5px;
+    
+}
+
+p{
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+details-cont{
+    
+}
+
+.button{
+    margin:30px;
+    color:pink;
+    text-decoration: none;
+}
 
