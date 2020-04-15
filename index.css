@@ -3,7 +3,7 @@ html, body{
     height:97%;
     margin:0;
     padding:0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 16px;
 
 }
@@ -45,7 +45,28 @@ h1{
     font-size: 25px;
     margin-bottom:0;
 }
+.middle-right{
+    margin-top:20px;
+}
 
+.sq_pink{
+    height:80px;
+    width:80px;
+    background-color: pink;
+}
+.sq_grey{
+    height:80px;
+    width:80px;
+    background-color: #E4E4E4;
+}
+
+table.color_table td{
+    text-align: center;
+    font-weight: 600;
+    width:80px;
+    font-weight:500;
+    font-size: 15px;
+}
 
 .footer{
     text-align: center;
