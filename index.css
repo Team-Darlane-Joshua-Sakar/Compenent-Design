@@ -1,25 +1,24 @@
 html, body{
-    background-color:#385F71;
+    background-color:#E4E4E4;
     height:97%;
     margin:0;
     padding:0;
-    font-family:sans-serif;
+    font-family:Roboto, sans-serif;
 }
 
 .container{
     background-color:#FFCAAF;
-    width:800px;
+    width:1250px;
     margin:auto;
     margin-top:50px;
     padding-top:10px;
     padding-bottom:10px;
-    
 }
-.name{
-    font-size: 27;
-    font-weight: 600;
-    font-style: italic;
-    margin:10px;
+
+.subcontainer{
+    background-color:white;
+    padding-left:15px;
+    padding-top:10px;
 }
 
 h1{
@@ -34,89 +33,18 @@ h1{
 .gridcontainer{
     background-color:white;
     display:grid;
-    grid-template-areas: 
-        ' header image keym'
-        'personal personal information'
-        'goals obj usage';
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    padding:10px;
+    grid-template-columns: 650px auto;
+    grid-template-rows: auto auto; 
+    padding-left:20px;
 }
 
-.grid-header{
-    grid-area: header;
-    text-align: center;
-    padding:3px;
-    background-color:#E1E1E1;
-}
-.grid-image{
-    grid-area:image;
-    text-align: center;
-    padding:3px;
-    background-color:#E1E1E1;
+.title{
+    font-weight:bold;
+    font-size: 25px;
+    margin-bottom:0;
 }
 
-.titles{
-    font-weight: bold;
-}
-img{
-    height:140px;
-    width:150px;
-    margin:10 0 0 0;
-}
-.grid-keym{
-    grid-area:keym;
-    text-align: center;
-    padding:3px;
-    background-color:#E1E1E1;
-}
 
-.keym{
-    font-style: italic;
-    font-size: 18px;
-}
-.key-detail{
-    text-align: left;
-    margin:0 0 0 10px;
-}
-
-.grid-personal{
-    grid-area:personal;
-    text-align: center;
-    padding:3px;
-}
-.grid-information{
-    grid-area:information;
-    text-align: center;
-    padding:3px;
-    margin:10 0 10 10;
-    background-color:#E1E1E1;
-}
-.information-detail p{
-    margin:0 10 5 10;
-    text-align: left;
-}
-
-.grid-goals{
-    grid-area:goals;
-    text-align: center;
-    padding:3px;
-}
-.grid-obj{
-    grid-area:obj;
-    text-align: center;
-    padding:3px;
-}
-.grid-usage{
-    grid-area:usage;
-    text-align: center;
-    padding:3px;
-    margin:0 0 10 10;
-    background-color:#E1E1E1;
-}
-.usage-detail p{
-    margin:0 10 5 10;
-}
 
 .footer{
     text-align: center;
