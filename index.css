@@ -6,7 +6,6 @@ html, body{
     font-family: 'Manrope', sans-serif;
     font-size: 16px;
 }
-
 .container{
     background-color:#FFCAAF;
     width:1250px;
@@ -15,7 +14,6 @@ html, body{
     padding-top:10px;
     padding-bottom:10px;
 }
-
 .nav {
     text-align: center;
 }
@@ -51,7 +49,6 @@ h1{
     font-size: 30px;
     font-weight:800;
 }
-
 .gridcontainer{
     background-color:white;
     display:grid;
@@ -60,21 +57,12 @@ h1{
     padding-left:30px;
     padding-right:30px;
 }
-
-.sectioncontainer{
-	 background-color:white;
-    display:grid;
-    grid-template-columns: 650px auto;
-    grid-template-rows: auto auto;
-    padding-left:30px;
-    padding-right:30px;
-}
-
+.top-left{margin-right:50;}
 .top-right{
-    
 }
+
 .fonts{float:left}
-.fonts p{margin:5px; width:150}
+.fonts p{margin:5px; width:120}
 .one{font-weight:100}
 .two{font-weight:200}
 .three{font-weight:300}
@@ -91,6 +79,9 @@ h1{
 .uppercase{text-transform: uppercase}
 .lowercaseb{text-transform: lowercase;font-weight: bold}
 .uppercaseb{text-transform: uppercase;font-weight:bold}
+
+.div_img1{float:left}
+.img1{height:100px;}
 
 .title{
     font-weight:bold;
