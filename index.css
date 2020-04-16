@@ -86,6 +86,7 @@ h1{
 
 .fonts2{float:right}
 .fonts2 p{margin:10px}
+.italic{text-transform:lowercase;font-style: italic;}
 .lowercase{text-transform: lowercase}
 .uppercase{text-transform: uppercase}
 .lowercaseb{text-transform: lowercase;font-weight: bold}
