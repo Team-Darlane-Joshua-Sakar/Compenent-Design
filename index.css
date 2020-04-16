@@ -5,7 +5,6 @@ html, body{
     padding:0;
     font-family: 'Manrope', sans-serif;
     font-size: 16px;
-
 }
 
 .container{
@@ -17,12 +16,26 @@ html, body{
     padding-bottom:10px;
 }
 
+.nav {
+    text-align: center;
+}
+.nav a{
+    padding:20px; 
+    text-decoration: none;
+    color:black;
+    text-transform:uppercase;
+    font-weight: 600;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
 .subcontainer{
     background-color:white;
-    padding-left:15px;
+    padding-left:30px;
+    padding-right:30px;
     padding-top:10px;
+    height:auto;
 }
-
 h1{
     margin:0;
     padding-bottom:10px;
@@ -31,13 +44,20 @@ h1{
     font-size: 40px;
     padding: 15px
 }
+.overview{
+    margin-top:10;
+    margin-bottom:10;
+    font-size: 30px;
+    font-weight:800;
+}
 
 .gridcontainer{
     background-color:white;
     display:grid;
     grid-template-columns: 650px auto;
     grid-template-rows: auto auto; 
-    padding-left:20px;
+    padding-left:30px;
+    padding-right:30px;
 }
 .fonts p{margin:5px}
 .one{font-weight:100}
