@@ -78,7 +78,9 @@ h1{
 .middle-right{
     margin-top:20px;
 }
-
+.color_table{
+    margin:auto;
+}
 .sq_pink{
     height:80px;
     width:80px;
