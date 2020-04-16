@@ -20,7 +20,7 @@ html, body{
     text-align: center;
 }
 .nav a{
-    padding:20px; 
+    padding:20px;
     text-decoration: none;
     color:black;
     text-transform:uppercase;
@@ -56,7 +56,7 @@ h1{
     background-color:white;
     display:grid;
     grid-template-columns: 650px auto;
-    grid-template-rows: auto auto; 
+    grid-template-rows: auto auto;
     padding-left:30px;
     padding-right:30px;
 }
@@ -81,22 +81,10 @@ h1{
 .color_table{
     margin:auto;
 }
-.sq_pink{
-    height:80px;
-    width:80px;
-    background-color: #FFCAAF;
-}
-.sq_grey{
-    height:80px;
-    width:80px;
-    background-color: #E4E4E4;
-}
-.sq_white{
-    height:80px;
-    width:80px;
-    background-color:white;
-    border:1px solid #E4E4E4;
-}
+.sq_black{height:80px;height:80px;background-color:black;}
+.sq_pink{height:80px;width:80px;background-color: #FFCAAF;}
+.sq_grey{height:80px; width:80px;background-color: #E4E4E4;}
+.sq_white{height:80px;width:80px;background-color:white;border:1px solid #E4E4E4;}
 
 table.color_table td{
     text-align: center;
