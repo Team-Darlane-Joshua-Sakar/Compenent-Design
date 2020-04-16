@@ -1,0 +1,86 @@
+html,body{
+    background-color:#E4E4E4;
+    font-family:'Manrope', sans-serif;
+}
+
+.container{
+    width:450px;
+    height:auto;
+    margin:auto;
+    margin-top:150px;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    padding:30px;
+    border: 1px solid #CCCCCC; 
+}
+
+img{
+    height:180px;
+    width:450px;
+}
+
+.header-cont{
+    margin-left:15px;
+	
+}
+h2{
+    margin-top:10px;
+    margin-bottom:5px;
+    font-weight: 900;
+}
+
+p{
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+
+.buttons a:hover{
+    background-color: #CCCCCC;
+    border-radius: 2px;
+}
+.button{
+    margin:30px;
+    color:red;
+    text-decoration: none;
+	&:card;
+	display: inline-block;
+	width: 30%;
+	min-width: 400px;
+	height: 330px;
+	border: 1px solid transparentize(grey,0.7);
+	box-sizing: border-box;
+	box-shadow: 2px 2px 25px 0px transparentize(black,0.3);
+	border-radius: 3px;
+	margin: 1em 1.5%;
+	animation: scl 0.5s ease-in-out;
+	transform-origin: left center;
+	background-color: #fff;
+}
+
+.details-cont{
+	padding: 0 1em 1em 1em;
+		border-bottom: 1px solid transparentize(grey,0.7);
+		height: 75px;
+		overflow: hidden;
+		text-align: justify;
+}
+
+.card-readMore{
+	margin: 1em 0 1em 1em;
+	height: 3em;
+	width: 8em;
+	background: #ff0000;
+	border: none;
+	font-weight: light;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	outline: none;
+	border-radius: 2px;
+
+&:hover;
+	background: transparentize(#ff1d8e,0.2);
+	transition: all 0.1s ease-in;
+	
+	}
