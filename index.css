@@ -60,6 +60,16 @@ h1{
     padding-left:30px;
     padding-right:30px;
 }
+
+.sectioncontainer{
+	 background-color:white;
+    display:grid;
+    grid-template-columns: 650px auto;
+    grid-template-rows: auto auto;
+    padding-left:30px;
+    padding-right:30px;
+}
+
 .top-right{
     
 }
