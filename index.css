@@ -60,7 +60,11 @@ h1{
     padding-left:30px;
     padding-right:30px;
 }
-.fonts p{margin:5px}
+.top-right{
+    
+}
+.fonts{float:left}
+.fonts p{margin:5px; width:150}
 .one{font-weight:100}
 .two{font-weight:200}
 .three{font-weight:300}
@@ -69,6 +73,13 @@ h1{
 .six{font-weight:600}
 .seven{font-weight:700}
 .eight{font-weight:800}
+
+.fonts2{float:right}
+.fonts2 p{margin:10px}
+.lowercase{text-transform: lowercase}
+.uppercase{text-transform: uppercase}
+.lowercaseb{text-transform: lowercase;font-weight: bold}
+.uppercaseb{text-transform: uppercase;font-weight:bold}
 
 .title{
     font-weight:bold;
