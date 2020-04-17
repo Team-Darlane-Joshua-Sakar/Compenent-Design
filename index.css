@@ -98,6 +98,8 @@ h1{
 .sq_pink{height:80px;width:80px;background-color: #FFCAAF;}
 .sq_grey{height:80px; width:80px;background-color: #E4E4E4;}
 .sq_white{height:80px;width:80px;background-color:white;border:1px solid #E4E4E4;}
+.sq_darkblue{height:80px;height:80px;background-color:#211545;}
+.sq_darkred{height:80px;height:80px;background-color:#a5283b;}
 
 table.color_table td{
     text-align: center;
